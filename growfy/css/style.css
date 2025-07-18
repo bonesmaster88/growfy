@@ -68,8 +68,6 @@ input[type=text],
 input[type=email],
 input[type=tel],
 textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 
@@ -160,8 +158,7 @@ textarea {
   position: absolute;
   inset-block-start: 0;
   inset-inline-start: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -205,8 +202,7 @@ body.menu-open {
 .header__body {
   position: relative;
   display: flex;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
   align-items: center;
   min-block-size: 6.25rem;
   padding-block-start: 0.625rem;
@@ -226,8 +222,7 @@ body.menu-open {
 }
 @media (max-width: 22.5em) {
   .header__body {
-    -moz-column-gap: 1.5625rem;
-         column-gap: 1.5625rem;
+      column-gap: 1.5625rem;
   }
 }
 .header__actions {
@@ -237,8 +232,7 @@ body.menu-open {
 @media (max-width: 47.99875em) {
   .header__actions {
     display: flex;
-    -moz-column-gap: 0.8125rem;
-         column-gap: 0.8125rem;
+    column-gap: 0.8125rem;
     align-items: center;
     padding-inline-end: 40px;
   }
@@ -252,8 +246,7 @@ body.menu-open {
 
 .logo {
   display: flex;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  column-gap: 0.5rem;
   align-items: center;
   flex-shrink: 0;
   z-index: 2;
@@ -316,14 +309,12 @@ body.menu-open {
 .menu__list {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 2.25rem;
-       column-gap: 2.25rem;
+  column-gap: 2.25rem;
   row-gap: 0.3125rem;
 }
 @media (max-width: 62.5em) {
   .menu__list {
-    -moz-column-gap: 1.875rem;
-         column-gap: 1.875rem;
+     column-gap: 1.875rem;
   }
 }
 .menu__item {
@@ -359,8 +350,7 @@ body.menu-open {
 
 .cart-header {
   display: flex;
-  -moz-column-gap: 0.3125rem;
-       column-gap: 0.3125rem;
+  column-gap: 0.3125rem;
   align-items: center;
   z-index: 2;
 }
@@ -502,8 +492,7 @@ body.menu-open {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
   padding-block-start: 9rem;
   padding-block-end: 1.25rem;
 }
@@ -553,8 +542,7 @@ body.menu-open {
 }
 .hero__actions {
   display: flex;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
 }
 @media (max-width: 47.99875em) {
   .hero__actions .button {
@@ -573,8 +561,7 @@ body.menu-open {
   flex-basis: 50%;
   display: flex;
   padding-inline: 1.875rem;
-  -moz-column-gap: 9.616%;
-       column-gap: 9.616%;
+  column-gap: 9.616%;
 }
 @media (max-width: 55.625em) {
   .pic-hero {
@@ -597,8 +584,7 @@ body.menu-open {
 .pic-hero__wrap img {
   inline-size: 100%;
   block-size: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .pic-hero__wrap--small-first, .pic-hero__wrap--small-second {
   aspect-ratio: 1;
@@ -684,8 +670,7 @@ body.menu-open {
 .clients__item img {
   inline-size: 10.625rem;
   block-size: 2.625rem;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   will-change: transform;
   transition: transform 0.2s;
 }
@@ -721,14 +706,12 @@ body.menu-open {
 }
 .services__body {
   display: flex;
-  -moz-column-gap: 6.25rem;
-       column-gap: 6.25rem;
+  column-gap: 6.25rem;
   align-items: center;
 }
 @media (max-width: 78.125em) {
   .services__body {
-    -moz-column-gap: 1.875rem;
-         column-gap: 1.875rem;
+     column-gap: 1.875rem;
   }
 }
 @media (max-width: 64.375em) {
@@ -757,8 +740,7 @@ body.menu-open {
   flex-grow: 1;
   flex-shrink: 0;
   display: flex;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
 }
 @media (max-width: 64.375em) {
   .services__items {
@@ -842,8 +824,7 @@ body.menu-open {
   margin-block-end: 0.9375rem;
 }
 .item-service__img img {
-  -o-object-fit: contain;
-     object-fit: contain;
+   object-fit: contain;
 }
 .item-service__title {
   font-size: 1.1875rem;
@@ -864,8 +845,7 @@ body.menu-open {
 }
 .why-us__body {
   display: flex;
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
+  column-gap: 4rem;
   align-items: center;
 }
 @media (max-width: 47.99875em) {
@@ -930,15 +910,13 @@ body.menu-open {
 .pic-why__img img {
   inline-size: 100%;
   block-size: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .list-why__item {
   display: flex;
   align-items: center;
-  -moz-column-gap: 0.625rem;
-       column-gap: 0.625rem;
+  column-gap: 0.625rem;
 }
 .list-why__item::before {
   content: "";
@@ -961,8 +939,7 @@ body.menu-open {
 }
 .stats__body {
   display: flex;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
 }
 @media (max-width: 61.25em) {
   .stats__body {
@@ -1029,8 +1006,7 @@ body.menu-open {
 .pic-stats__body img {
   inline-size: 100%;
   block-size: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .testimonials {
@@ -1038,8 +1014,7 @@ body.menu-open {
 }
 .testimonials__content {
   display: flex;
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+  column-gap: 1.25rem;
   justify-content: space-between;
 }
 .testimonials__content:not(:last-child) {
@@ -1079,8 +1054,7 @@ body.menu-open {
 .testimonials__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  column-gap: 3rem;
 }
 @media (max-width: 65.625em) {
   .testimonials__items {
@@ -1124,8 +1098,7 @@ body.menu-open {
 
 .header-item-testimonials {
   display: flex;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  column-gap: 1rem;
   align-items: center;
 }
 .header-item-testimonials__img {
@@ -1136,8 +1109,7 @@ body.menu-open {
 .header-item-testimonials__img img {
   inline-size: 100%;
   block-size: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .header-item-testimonials__title {
   color: #fff;
@@ -1170,8 +1142,7 @@ body.menu-open {
 
 .rating {
   display: flex;
-  -moz-column-gap: 0.3125rem;
-       column-gap: 0.3125rem;
+  column-gap: 0.3125rem;
 }
 .rating__star {
   inline-size: 1.25rem;
@@ -1180,8 +1151,7 @@ body.menu-open {
 .rating__star img {
   inline-size: 100%;
   block-size: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .news {
@@ -1189,8 +1159,7 @@ body.menu-open {
 }
 .news__content {
   display: flex;
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+  column-gap: 1.25rem;
   justify-content: space-between;
 }
 .news__content:not(:last-child) {
@@ -1233,13 +1202,11 @@ body.menu-open {
 .news__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  column-gap: 3rem;
 }
 @media (max-width: 65.625em) {
   .news__items {
-    -moz-column-gap: 1.25rem;
-         column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
 }
 @media (max-width: 47.99875em) {
@@ -1356,8 +1323,7 @@ body.menu-open {
 }
 .ready-to-start__body {
   display: flex;
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+  column-gap: 1.25rem;
   align-items: center;
   justify-content: space-between;
   padding-inline: 8.75rem;
@@ -1404,8 +1370,7 @@ body.menu-open {
 }
 .ready-to-start__actions {
   display: flex;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
 }
 @media (max-width: 47.99875em) {
   .ready-to-start__actions .button {
@@ -1446,14 +1411,12 @@ body.menu-open {
 .main-footer__body {
   display: grid;
   grid-template-columns: minmax(auto, 23.375rem) auto auto minmax(auto, 23.375rem);
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
+  column-gap: 4rem;
   row-gap: 2.5rem;
 }
 @media (max-width: 75em) {
   .main-footer__body {
-    -moz-column-gap: 2.8125rem;
-         column-gap: 2.8125rem;
+    column-gap: 2.8125rem;
   }
 }
 .main-footer__col:first-child {
@@ -1503,8 +1466,7 @@ body.menu-open {
 
 .socials-footer__list {
   display: flex;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+   column-gap: 1rem;
 }
 .socials-footer__link {
   inline-size: 2.25rem;
@@ -1559,8 +1521,7 @@ body.menu-open {
 
 .subscribe {
   display: flex;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+    column-gap: 1rem;
 }
 @media (max-width: 28.125em) {
   .subscribe {
@@ -1576,7 +1537,6 @@ body.menu-open {
 }
 .subscribe input::-moz-placeholder {
   color: #999;
-  -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 .subscribe input::placeholder {
@@ -1593,7 +1553,6 @@ body.menu-open {
 }
 .subscribe input:focus::-moz-placeholder {
   opacity: 0;
-  -moz-transition: 0.2s;
   transition: 0.2s;
 }
 .subscribe input:focus::placeholder {
