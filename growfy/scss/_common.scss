@@ -1,0 +1,96 @@
+@use "_mixins.scss" as *;
+
+$accentBlue: #3d8add;
+
+.button{
+  flex-shrink: 0;
+  padding-inline: rem(24);
+  padding-block: rem(16);
+  border-radius: rem(50);
+  color: #ffff;
+  background-color: $accentBlue;
+  text-align: center;
+  font-size: rem(14);
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: rem(2);
+
+  transition: .2s;
+
+  @media (any-hover: hover), (pointer: fine) {
+  &:hover {
+    background-color: #0957AE;
+  }
+  }
+
+  &--gray{
+   background-color: #242429;
+
+   @media (any-hover: hover), (pointer: fine) {
+   &:hover {
+     background-color: #484852;
+   }
+   }
+  }
+
+  @media (max-width: toEm(1000)) {
+    padding-inline: rem(20);
+    padding-block: rem(10);
+  }
+}
+
+.block-text {
+ display: flex;
+ flex-direction: column;
+
+
+ &__label {
+  align-self: flex-start;
+  padding-inline: rem(19);
+  padding-block: rem(11);
+  border-radius: rem(12);
+  border: 1px solid #434347;
+  font-size: rem(11);
+  text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: (rem(2));
+
+  &:not(:last-child){
+   margin-block-end: rem(19);
+  }
+ }
+
+ &__title {
+  color: #fff;
+  font-size: rem(51);
+  font-weight: 500;
+  line-height: 1.2;
+
+  &:not(:last-child){
+   padding-block-end: rem(12);
+  }
+
+ @media (max-width: toEm(1050)) {
+  font-size: rem(42);
+ }
+
+ @media (max-width: toEm(950)) {
+  font-size: rem(38);
+ }
+
+ @media (max-width: toEm(850)) {
+  font-size: rem(35);
+ }
+
+ }
+
+ &__content {
+  font-size: rem(18);
+ }
+
+
+ &--center{
+  text-align: center;
+ }
+}
+
