@@ -1535,25 +1535,14 @@ body.menu-open {
   border: 1px solid rgba(129, 129, 139, 0.3);
   border-radius: 3.125rem;
 }
-.subscribe input::-moz-placeholder {
-  color: #999;
-  transition: opacity 0.2s;
-}
 .subscribe input::placeholder {
   color: #999;
   transition: opacity 0.2s;
 }
 @media (max-width: 75em) {
-  .subscribe input::-moz-placeholder {
-    font-size: 0.875rem;
-  }
   .subscribe input::placeholder {
     font-size: 0.875rem;
   }
-}
-.subscribe input:focus::-moz-placeholder {
-  opacity: 0;
-  transition: 0.2s;
 }
 .subscribe input:focus::placeholder {
   opacity: 0;
