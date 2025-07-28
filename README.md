@@ -38,7 +38,7 @@ The next few websites will be developed **entirely independently** — without t
 
 ## 🌐 Українська версія
 
-![#3](https://img.shields.io/badge/%233-skyblue)  ![Landing](https://img.shields.io/badge/Landing-9DB2BF?style=flat&logoColor=white) ![Навчальний проєкт](https://img.shields.io/badge/Навчальний_проєкт-F4A261?style=flat&logoColor=white) ![Початковий рівень](https://img.shields.io/badge/Початковий_рівень-A8D5BA?style=flat&logoColor=white)  [![🔗 Демо-версія](https://img.shields.io/badge/🔗_Демо_версія-1f2d5a?style=flat&logoColor=white)](https://bonesmaster88.github.io/growfy)
+![#3](https://img.shields.io/badge/%233-skyblue)  ![Landing](https://img.shields.io/badge/Landing-9DB2BF?style=flat&logoColor=white) ![Навчальний проєкт](https://img.shields.io/badge/Навчальний_проєкт-F4A261?style=flat&logoColor=white) ![Початковий рівень](https://img.shields.io/badge/Початковий_рівень-A8D5BA?style=flat&logoColor=white)  [![🔗 Демо-версія](https://img.shields.io/badge/🔗_Демо_версія-1f2d5a?style=flat&logoColor=white)](https://bonesmaster88.github.io/growfy/growfy)
 
 # 🎓 Growfy
 
